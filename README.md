@@ -171,5 +171,5 @@ algoritmos numéricos, programação estruturada, primeiro semestre, código abe
 
 <br>
 <div align="center">
-<img width="auto" src="https://github.com/henriqueotogami/learning-c-language/blob/main/images/kofi-henrique-otogami.jpg?raw=true">
+<img width="auto" src="https://github.com/henriqueotogami/learning-c-language/blob/master/images/kofi-henrique-otogami.jpg?raw=true">
 </div>
