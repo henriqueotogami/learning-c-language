@@ -33,17 +33,17 @@ Este projeto contém uma coleção de programas em C e C++ desenvolvidos como pa
 
 ## 📁 Estrutura do Projeto
 
-### Arquivos de Aula
+### Arquivos de Aula (`aula/`)
 - **AULA1.c** - Primeiro exemplo de programa em C (cálculo simples)
 - **pr3.c** - Programa de resolução de sistemas lineares usando inversão de matrizes
 
-### Exercícios (Questões)
+### Exercícios (Questões) (`exercicios/`)
 - **quest7.cpp** - Soma dos dois maiores valores entre três números
 - **quest8.cpp** - Identificação de polígonos regulares e cálculo de perímetro/área
 - **quest9.cpp** - Exercício da lista de algoritmos
 - **quest10.cpp** - Exercício da lista de algoritmos
 
-### Provas e Avaliações
+### Provas e Avaliações (`provas/`)
 - **prova3.cpp** - Resolução de sistemas lineares por inversão de matrizes (versão de prova)
 - **q2prov3.cpp** - Segunda questão da prova 3
 - **exe34.cpp** - Exercício adicional
@@ -53,15 +53,18 @@ Este projeto contém uma coleção de programas em C e C++ desenvolvidos como pa
 ```
 LICENSE
 README.md
-AULA1.c                    # exemplo básico de cálculo em C
-pr3.c                      # resolução de sistemas lineares
-quest7.cpp                 # exercício: soma dos dois maiores valores
-quest8.cpp                 # exercício: identificação de polígonos
-quest9.cpp                 # exercício da lista de algoritmos
-quest10.cpp                # exercício da lista de algoritmos
-prova3.cpp                 # prova: resolução de sistemas lineares
-q2prov3.cpp                # questão 2 da prova 3
-exe34.cpp                  # exercício adicional
+aula/
+    AULA1.c                # exemplo básico de cálculo em C
+    pr3.c                  # resolução de sistemas lineares
+exercicios/
+    quest7.cpp             # exercício: soma dos dois maiores valores
+    quest8.cpp             # exercício: identificação de polígonos
+    quest9.cpp             # exercício da lista de algoritmos
+    quest10.cpp            # exercício da lista de algoritmos
+provas/
+    prova3.cpp             # prova: resolução de sistemas lineares
+    q2prov3.cpp            # questão 2 da prova 3
+    exe34.cpp              # exercício adicional
 ```
 
 ## 🛠️ Tecnologias Utilizadas
@@ -73,7 +76,7 @@ exe34.cpp                  # exercício adicional
 ## 📝 Funcionalidades Principais
 
 ### Resolução de Sistemas Lineares
-Os programas `pr3.c` e `prova3.cpp` implementam algoritmos para:
+Os programas `aula/pr3.c` e `provas/prova3.cpp` implementam algoritmos para:
 - Calcular a matriz inversa de uma matriz quadrada
 - Resolver sistemas de equações lineares usando o método da inversão de matrizes
 - Processar entrada do usuário para ordem da matriz e valores
@@ -94,11 +97,12 @@ Os programas `pr3.c` e `prova3.cpp` implementam algoritmos para:
 ### Compilação via Terminal (Linux/Mac)
 
 ```bash
-# Para arquivos .c
-gcc nome_arquivo.c -o nome_executavel -lm
+# Para arquivos .c na pasta aula/
+gcc aula/nome_arquivo.c -o nome_executavel -lm
 
-# Para arquivos .cpp
-g++ nome_arquivo.cpp -o nome_executavel
+# Para arquivos .cpp nas pastas exercicios/ ou provas/
+g++ exercicios/nome_arquivo.cpp -o nome_executavel
+g++ provas/nome_arquivo.cpp -o nome_executavel
 
 # Executar
 ./nome_executavel
@@ -107,11 +111,12 @@ g++ nome_arquivo.cpp -o nome_executavel
 ### Compilação via Terminal (Windows)
 
 ```cmd
-# Para arquivos .c
-gcc nome_arquivo.c -o nome_executavel.exe
+# Para arquivos .c na pasta aula/
+gcc aula/nome_arquivo.c -o nome_executavel.exe
 
-# Para arquivos .cpp
-g++ nome_arquivo.cpp -o nome_executavel.exe
+# Para arquivos .cpp nas pastas exercicios/ ou provas/
+g++ exercicios/nome_arquivo.cpp -o nome_executavel.exe
+g++ provas/nome_arquivo.cpp -o nome_executavel.exe
 
 # Executar
 nome_executavel.exe
@@ -130,7 +135,7 @@ nome_executavel.exe
 ## ⚙️ Como funciona
 
 ### Resolução de Sistemas Lineares
-Os programas `pr3.c` e `prova3.cpp` implementam o seguinte algoritmo:
+Os programas `aula/pr3.c` e `provas/prova3.cpp` implementam o seguinte algoritmo:
 1. O usuário informa a ordem da matriz e seus elementos
 2. O programa cria uma matriz expandida (matriz original + matriz identidade)
 3. Aplica o método de eliminação de Gauss-Jordan para encontrar a matriz inversa
@@ -138,8 +143,8 @@ Os programas `pr3.c` e `prova3.cpp` implementam o seguinte algoritmo:
 5. Exibe a matriz inversa e a solução do sistema
 
 ### Exercícios de Lógica
-- **quest7.cpp**: Lê três valores, identifica os dois maiores e calcula sua soma usando estruturas condicionais
-- **quest8.cpp**: Identifica polígonos regulares (triângulo, quadrado, pentágono) e calcula perímetro ou área conforme o caso
+- **exercicios/quest7.cpp**: Lê três valores, identifica os dois maiores e calcula sua soma usando estruturas condicionais
+- **exercicios/quest8.cpp**: Identifica polígonos regulares (triângulo, quadrado, pentágono) e calcula perímetro ou área conforme o caso
 - Outros exercícios seguem padrões similares de entrada, processamento e saída de dados
 
 ## 📄 Licença
@@ -163,3 +168,8 @@ engenharia elétrica, computação aplicada, Dev-C++, exercícios C, tutoriais C
 aprender programação, código exemplo, arrays, loops, estruturas de dados,
 algoritmos numéricos, programação estruturada, primeiro semestre, código aberto
 ```
+
+<br>
+<div align="center">
+<img width="auto" src="https://github.com/henriqueotogami/learning-c-language/blob/main/images/kofi-henrique-otogami.jpg?raw=true">
+</div>
